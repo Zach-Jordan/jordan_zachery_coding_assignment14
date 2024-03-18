@@ -1,38 +1,37 @@
+body {
+  background-image: url("C:\Users\zachj\OneDrive\Documents\GitHub\jordan_zachery_coding_assignment14\client\src\assets\img\low-poly-grid-haikei.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .App {
-  text-align: center;
+  width: 750px;
+  margin: auto;
+  height: 100vh;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 2s forwards;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes fadeInAnimation {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
   }
+}
+
+.container {
+  padding-bottom: 25px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  color: rgb(41, 41, 41);
 }
