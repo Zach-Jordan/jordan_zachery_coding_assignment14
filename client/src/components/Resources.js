@@ -9,7 +9,9 @@ const Resources = () => {
     <div className="container">
       <Label text="Resources" />
       <Card2 image={<Img src={redriver} alt="Image" width="75px" />}>
-        <h2>Red River Polytechnic</h2>
+        <h2>
+          <a href="https://www.rrc.ca/">Red River Polytechnic</a>
+        </h2>
         <Text>
           I have attended Red River Polytechnic specializing in Fulls Stack
           Developement. My time at the college tought me about front-end,
@@ -17,14 +19,18 @@ const Resources = () => {
         </Text>
       </Card2>
       <Card2 image={<Img src={codecademy} alt="Image" width="75px" />}>
-        <h2>Codecademy</h2>
+        <h2>
+          <a href="https://www.codecademy.com/">Codecademy</a>
+        </h2>
         <Text>
           I use Codecademy' large catalog of cources to supplement my knowledge,
           learn new skills and learn new languages.
         </Text>
       </Card2>
       <Card2 image={<Img src={freecodecamp} alt="Image" width="75px" />}>
-        <h2>FreeCodeCamp</h2>
+        <h2>
+          <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>
+        </h2>
         <Text>
           I use FreeCodeCamp' catalog of free cources to supplement my
           knowledge, learn new skills and learn new languages.
