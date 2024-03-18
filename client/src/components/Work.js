@@ -1,5 +1,5 @@
 import React from "react";
-import { Label, Text, Card1, Card2, Img } from "zlj-comp-lib";
+import { Label, Text, Card1, Img } from "zlj-comp-lib";
 import taskk9 from "../assets/img/taskk9.PNG";
 import kylepeters from "../assets/img/kylepeters.PNG";
 

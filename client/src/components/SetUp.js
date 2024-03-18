@@ -1,5 +1,5 @@
 import React from "react";
-import { Label, Text, Card1 } from "zlj-comp-lib";
+import { Label, Card1 } from "zlj-comp-lib";
 
 const SetUp = () => {
   return (
