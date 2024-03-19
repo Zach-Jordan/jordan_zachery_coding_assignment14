@@ -1,8 +1,3 @@
-body {
-  background-image: url("C:\Users\zachj\OneDrive\Documents\GitHub\jordan_zachery_coding_assignment14\client\src\assets\img\low-poly-grid-haikei.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .App {
   width: 750px;
   margin: auto;
@@ -31,7 +26,16 @@ body {
 }
 
 a {
-  color: black;
   text-decoration: none;
   color: rgb(41, 41, 41);
+}
+
+.footer-content-social {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.footer-content-social a {
+  color: rgb(141, 141, 141);
 }
